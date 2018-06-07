@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/l_zero/php7.1
+FROM registry.cn-hangzhou.aliyuncs.com/l_zero/php7.1:v5.6
 RUN apt-get update && apt-get install -y git \
     && git config --global user.name "docker" \
     && git config --global user.email "docker@email.com" \
